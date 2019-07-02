@@ -20,6 +20,8 @@ A collection of all the best practice references that I can find.
 ## Networking
  - Best practices to set up networking for workloads migrated to Azure
     - https://docs.microsoft.com/en-au/azure/architecture/cloud-adoption/migrate/azure-best-practices/migrate-best-practices-networking 
+ - Best practices to consider before deploying a network virtual appliance
+	- https://azure.microsoft.com/en-au/blog/best-practices-to-consider-before-deploying-a-network-virtual-appliance/
 
 ## Storage 
 
