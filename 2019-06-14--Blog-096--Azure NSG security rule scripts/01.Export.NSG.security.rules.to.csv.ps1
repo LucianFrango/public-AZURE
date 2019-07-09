@@ -1,4 +1,4 @@
-$nsgs = <networkSecurityGroupName>
+$nsgs = Get-AzNetworkSecurityGroup
 $exportPath = '<C:\somewhere>'
 Foreach ($nsg in $nsgs){
 New-Item -ItemType file -Path "$exportPath\$($nsg.Name).csv" -Force
