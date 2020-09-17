@@ -1,4 +1,4 @@
-$nsg = Get-AzNetworkSecurityGroup
+$nsgs = Get-AzNetworkSecurityGroup
 $exportPath = '<C:\somewhere>'
 
 Foreach ($nsg in $nsgs){
